@@ -20,12 +20,18 @@
             width:800px; text-align:center; margin : 0 auto;
         }
         .menu {
-            background-color:lightslategrey;
+            background: #d4e4ef;
+            background: -moz-radial-gradient(center, ellipse cover,  #d4e4ef 0%, #d4e4ef 27%, #86aecc 65%, #86aecc 78%);
+            background: -webkit-radial-gradient(center, ellipse cover,  #d4e4ef 0%,#d4e4ef 27%,#86aecc 65%,#86aecc 78%);
+            background: radial-gradient(ellipse at center,  #d4e4ef 0%,#d4e4ef 27%,#86aecc 65%,#86aecc 78%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=1 );
+
             position:fixed;
-            left:50; width:100px; margin: 0 20px;
+            left:150px; width:100px; margin: 100px;
             border-radius: 30px; padding:10px;
             text-align: center;
         }
+
         .menu-header{
             font-size:24px;
         }
@@ -40,70 +46,143 @@
         .font-padding{
             padding-left:10px;
         }
-    </style>
+        .table {
+            text-align:center;
+            margin: 20px 10px;
+        }
+        .font {
+            font-size:24px;
+        }
+        </style>
 </head>
 <body>
-    <div>
-        <h1 class="header">자기소개</h1>
-        <hr />
-        <div class="menu">
-            <b class="menu-header">메뉴</b>
-            <br />
-            <br />
-            <a href="#프로필">프로필</a>
-            <br />
-            <br />
-            <a href=#취미>취미</a>
-            <br />
-            <br />
-            <a href=#장래희망>장래희망</a>
-            <br />
-            <br />
-        </div>
-        <div class="background" id="font-padding">
-            <br />
-            <br />
-            <h1 class="header" id="프로필">프로필</h1>
-            <br />
-            <img class="img" src="http://placehold.it/150x150" />
-            <div class="font-padding">
-                <p>이름 : 주대원</p>
-                <p>나이 : 20살</p>
-                <p>사는곳 : 경기도 부천시 오정구 오정동</p>
-                <p>학력 : 한성대학교 재학 덕산고등학교졸업</p>
-                <p>학번 : 1694043</p>
-                <br />
-                <hr />
-                <br />
-            </div>
-            <h1 class="header" id="취미">취미</h1>
-            <div class="font-padding">
-                <img class="image-ridding" src="자전거타기.PNG" />
-                <br />
-                <p>저의 취미는 자전거타기입니다.</p>
-                <p>주기적으로 주말마다 친구들과 자전거를 타고 공원산책을<br />합니다.</p>
-                <p>방학때는 자전거를 타고 마포도 다녀왔습니다. </p>
-                <br />
-                <br />
-                <br />
-            </div>
+<div>
+    <h1 class="header">자기소개</h1>
+    <hr />
+    <div class="menu">
+        <b class="menu-header">메뉴</b>
+        <br />
+        <br />
+        <a href="#프로필">프로필</a>
+        <br />
+        <br />
+        <a href=#취미>취미</a>
+        <br />
+        <br />
+        <a href=#장래희망>장래희망</a>
+        <br />
+        <br />
+        <a href=#시간표>시간표</a>
+        <br />
+        <br />
+        <a href=#교수진>교수님들</a>
+        <br />
+        <br />
+    </div>
+    <div class="background" id="font-padding">
+        <br />
+        <br />
+        <br />
+        <h1 class="header" id="프로필">프로필</h1>
+        <br />
+        <img class="img" src="http://placehold.it/150x150" />
+        <div class="font-padding">
+            <p>이름 : 주대원</p>
+            <p>나이 : 20살</p>
+            <p>사는곳 : 경기도 부천시 오정구 오정동</p>
+            <p>학력 : 한성대학교 재학 덕산고등학교졸업</p>
+            <p>학번 : 1694043</p>
             <br />
             <hr />
             <br />
-            <h1 class="header" id="장래희망">장래희망</h1>
-            <div class="font-padding">
-                <img class="image-ridding" src="정보보안전문가.jpg" />
-                <br />
-                <p>저의 꿈은 정보보안전문가입니다.</p>
-                <p>구체적으로는 회사들의 정보가 들어있는 공용,사설 클라우드를 보호하는 정보보안전문가가 되는것입니다.</p>
-                <p>그 꿈을 이루기 위해서 따로 네트워크 공부와 보안의 기초를 배울것 입니다.</p>
-                <br />
-                <br />
-                <br />
-                <hr />
-                <br />
+        </div>
+        <h1 class="header" id="취미">취미</h1>
+        <div class="font-padding">
+            <img class="image-ridding" src="자전거타기.PNG" />
+            <br />
+            <p>저의 취미는 자전거타기입니다.</p>
+            <p>주기적으로 주말마다 친구들과 자전거를 타고 공원산책을<br />합니다.</p>
+            <p>방학때는 자전거를 타고 마포도 다녀왔습니다. </p>
+            <br />
+            <br />
+            <br />
+        </div>
+        <br />
+        <hr />
+        <br />
+        <h1 class="header" id="장래희망">장래희망</h1>
+        <div class="font-padding">
+            <img class="image-ridding" src="정보보안전문가.jpg" />
+            <br />
+            <p>저의 꿈은 정보보안전문가입니다.</p>
+            <p>구체적으로는 회사들의 정보가 들어있는 공용,사설 클라우드를 보호하는 정보보안전문가가 되는것입니다.</p>
+            <p>그 꿈을 이루기 위해서 따로 네트워크 공부와 보안의 기초를 배울것 입니다.</p>
+            <br />
+            <br />
+            <br />
+            <hr />
+            <br />
+        </div>
+        <h1 class="header" id="시간표">시간표</h1>
+        <div class="font-padding , table">
+            <table border="1">
+                <tr>
+                    <th>주간</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
+                </tr>
+                <tr>
+                    <td>1교시<br/>09:00 ~ 09:50</td><td></td><td>웹프로그래밍</td><td></td><td></td><td>영어 커뮤니케이션</td>
+                </tr>
+                <tr>
+                    <td>2교시<br/>10:00 ~ 10:50</td><td></td><td>웹프로그래밍</td><td></td><td></td><td>소프트웨어의 이해</td>
+                </tr>
+                <tr>
+                    <td>3교시<br/>11:00 ~ 11:50</td><td></td><td></td><td></td><td></td><td>소프트웨어의 이해</td>
+                </tr>
+                <tr>
+                    <td>4교시<br/>12:00 ~ 12:50</td><td></td><td></td><td></td><td>웹프로그래밍</td><td></td>
+                </tr>
+                <tr>
+                    <td>5교시<br/>13:00 ~ 13:50</td><td></td><td>영어 커뮤니케이션</td><td> 사고와 표현 </td><td>대학수학</td><td></td>
+                </tr>
+                <tr>
+                    <td>6교시<br/>14:00 ~ 14:50</td><td></td><td>영어 커뮤니케이션</td><td> 사고와표현 </td><td>  대학수학  </td><td></td>
+                </tr>
+                <tr>
+                    <td>7교시<br/>15:00 ~ 15:50</td><td>C 프로그래밍</td><td></td><td></td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>8교시<br/>16:00 ~ 16:50</td><td>대학과사회의 이해</td><td></td><td>C 프로그래밍</td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>9교시<br/>17:00 ~ 17:50</td><td>대학과사회의 이해</td><td></td><td>C 프로그래밍</td><td></td><td></td>
+                </tr>
+            </table>
+            <br />
+        </div>
+        <hr />
+        <h1 class="header" id="교수진">교수진</h1>
+        <div class="font-padding">
+            <div class="img">
+                <img src="한성대학교.jpg" />
             </div>
+            <br />
+            <b class="font-padding , font">한성대학교 교수님들</b>
+            <br />
+            <br />
+            <a href="http://jylecture.blogspot.kr/">웹프로그래밍 : 허준영 교수님</a>
+            <br /><br />
+            <a href="http://hansung.ac.kr/~hkcho/">C 프로그래밍 : 조혜경 교수님</a>
+            <br /><br />
+            <a href="http://jun.hansung.ac.kr/scratch/">소프트웨어의 이해 : 지준 교수님</a>
+            <p>대 학 수 학  : 민경진 교수님</p>
+            <a href="http://www.hansung.ac.kr/web/freeox/home1">대학과사회의 이해 : 김귀옥 교수님</a>
+            <p>사고와 표현 : 권혁명 교수님</p>
+            <p>영어커뮤니케이션 : 그렉 교수님</p>
+            <br />
+            <br />
+            <br />
         </div>
     </div>
+</div>
 </body>
 </html>
