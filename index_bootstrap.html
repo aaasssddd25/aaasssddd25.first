@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        .floating-box{
+            position:relative;
+            width: 400px;
+            margin: 10px;
+            border: 3px powderblue;
+            float: left; }
+        .navbar {
+            background: rgb(0, 120, 255);
+            margin-bottom: 0;
+            border: 0;
+        }
+        .jumbotron {
+            background: rgb(0, 200, 255);
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">주대원의 블로그</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">수강과목<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">웹 프로그래밍</a></li>
+                    <li><a href="#">C 프로그래밍</a></li>
+                    <li><a href="#">소프트웨어의 이해</a></li>
+                    <li><a href="#">영어 커뮤니케이션</a></li>
+                    <li><a href="#">사고와 표현</a></li>
+                    <li><a href="#">대학 수학</a></li>
+                    <li><a href="#">대학과 사회의 이해</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">취 미 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">자전거 타기</a></li>
+                    <li><a href="#">유튜브 보기</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">최근 관심사<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">인공지능</a></li>
+                    <li><a href="#">리그오브레전드</a></li>
+                    <li><a href="#">기말고사</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <h1>&nbsp;&nbsp;&nbsp;주 대 원</h1>
+    <p>&nbsp;&nbsp;&nbsp;한성대학교 IT응용시스템공학과 1694043</p>
+</div>
+
+<div class="container">
+
+    <h1>자 기 소 개</h1>
+    <a href="#demo" class="btn btn-info" data-toggle="collapse">클릭!</a>
+    <div id="demo" class="collapse">
+        <h2>주대원</h2>
+        <h3>나이 : 20살</h3>
+        <h3>사는곳 : 경기도 부천시 오정구 오정동 546-1</h3>
+        <h3>취미 : 자전거타기</h3>
+        <h3>최근 관심사 : 기말고사</h3>
+    </div>
+
+</div>
+<div class="floating-box">
+
+    <h2 id="Like"> 좋아하는 것 : <span class="glyphicon glyphicon-thumbs-up"></span> </h2>
+    <h3> 컴퓨터 게임 </h3>
+    <h3> 창문열고 이불덮고 자는것 </h3>
+
+</div>
+</div>
+<div class="floating-box">
+    <h2 id="Active"> 취미 : <span class="glyphicon glyphicon-thumbs-up"></span></h2>
+    <h3> 자전거타기 </h3>
+    <h3> 걸으면서 돌아다니기 </h3>
+    <h3> 잠자기전 유튜브 보기 </h3>
+</div>
+
+<div class="floating-box">
+    <h2 id="Food"> 좋아하는 음식 : <span class="glyphicon glyphicon-thumbs-up"></span></h2>
+    <h3> 소고기 무국 </h3>
+    <h3> 오리 고기 </h3>
+    <h3> 부대 찌개 </h3>
+
+</div>
+<div class="floating-box">
+    <h2 id="Food"> 남은 기말고사 과목 : <span class="glyphicon glyphicon-thumbs-up"></span></h2>
+    <h4> 웹 프로그래밍 </h4>
+    <h4> C 프로그래밍 </h4>
+    <h4> 소프트웨어의 이해 </h4>
+    <h4> 영어 커뮤니케이션 </h4>
+    <h4> 사고와 표현 </h4>
+    <h4> 대학수학 </h4>
+    <h4> 대학과 사회의 이해 </h4>
+
+</div>
+
+
+</body>
+</html>
